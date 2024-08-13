@@ -1,0 +1,13 @@
+include <iostream>
+
+using namespace std;
+
+int main() {
+	int h, B, C, m;
+	int cnt = 0;
+	cin >> h >> B >> C;
+	cnt = h * 60 + B + C;
+	cout << (cnt/60) % 24 << " " << (cnt%60);
+
+	return 0;
+}
