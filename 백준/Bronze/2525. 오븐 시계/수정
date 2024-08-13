@@ -1,7 +1,7 @@
 include <iostream>
 
 using namespace std;
-
+// 총 몇 분인지 구해서 계산함
 int main() {
 	int h, B, C, m;
 	int cnt = 0;
