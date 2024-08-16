@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-	int N = 5, M = 5, i, j;
+	int N, M, i, j;
 	cin >> N >> M;
 	vector<int> box;
 
