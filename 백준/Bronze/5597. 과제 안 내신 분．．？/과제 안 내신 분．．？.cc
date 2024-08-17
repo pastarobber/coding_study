@@ -5,7 +5,6 @@ using namespace std;
 
 int main() {
 	int N;
-	vector<int> students;
 	bool find_num[30] = { 0, };
 
 	for (int i = 1; i < 29; i++) {
