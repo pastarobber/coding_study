@@ -24,3 +24,23 @@ int main() {
 
 	return 0;
 }
+-----------------------------------------------------------------------------------------------------------------
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	int n;
+	int cnt[6] = { 1,1,2,2,2,8 };
+
+	// 배열에 입력 값 넣기
+	for (int i = 0; i < 6; i++) {
+		cin >> n;
+		cnt[i] -= n;
+	}
+
+	for (int& s : cnt) 
+		cout << s << " ";
+
+	return 0;
+}
