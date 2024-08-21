@@ -34,3 +34,34 @@ int main() {
 
 	return 0;
 }
+------------------------------------------------------------------------------------------------------------------------------------------
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    string temp;
+
+    cin >> temp;
+    int num = temp.length();
+   
+    if (num == 1)
+    {
+        cout << 1;
+    }
+    else 
+    {
+        for (int i = 0; i < num; ++i) 
+        {
+            if (temp[i] != temp[num-1-i])
+            {
+                cout << 0;
+                return 0;
+            }
+        }
+        cout << 1;
+    }
+
+    return 0;
+}
